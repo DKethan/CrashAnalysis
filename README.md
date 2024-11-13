@@ -168,6 +168,59 @@ GROUP BY v.PRE_CRASH, v.CONTRIBUTING_FACTOR_1
 ORDER BY total_injuries DESC;
 ```
 
+# Data Visualization
+
+## 5.1 Exploring the Data
+
+- Used `df.head()` to view the first 5 rows.
+- Checked the dataset dimensions with `df.shape` for rows and columns.
+- Used `merged_df.columns` to view the column names.
+- Applied a simple `if-else` check to detect duplicates.
+- Checked for null values with `isnull`.
+- Verified unique values in columns with `merged_df.nunique()`.
+
+## 5.2 Checking for Outliers
+
+- Used box plots to identify outliers in the dataset.
+
+## 5.3 Pair Plot
+
+- Created a pair plot to visualize relationships between numeric columns.
+
+## 5.4 Correlation Matrix
+
+- Used `sns.heatmap` to generate a correlation matrix, identifying relationships between variables.
+
+## 5.5 Key Insights from the Data
+
+### 5.5.1 Number of Crashes by Borough
+
+- Observed that "Unspecified" has the highest count, followed by Brooklyn and Queens.
+
+### 5.5.2 Crashes Over Time
+
+- There is a noticeable drop in crashes in 2020, likely due to COVID-19 restrictions.
+
+### 5.5.3 Top Contributing Factors to Crashes
+
+- The primary cause of crashes appears to be driver distraction.
+
+### 5.5.4 Top 5 Vehicle Types Involved in Crashes
+
+- Sedans play a significant role in crash statistics.
+
+### 5.5.5 Crash Severity by Borough
+
+- Brooklyn has the highest crash severity among the boroughs.
+
+### 5.5.6 Number of Weekly Crashes
+
+- Fridays show the highest number of crashes, potentially due to people rushing home for the weekend or already starting their celebrations.
+
+### 5.5.7 Number of Hourly Crashes
+
+- Most crashes occur between 8-10 AM and 3-5 PM, suggesting companies might consider policies like “no meetings while driving.”
+
 
 # Limitations of the Project
 
