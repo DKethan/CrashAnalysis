@@ -29,6 +29,10 @@ By integrating data across `crashes_df`, `person_df`, and `vehicles_df` on the c
 
 Each dataset contains multiple columns detailing crash information, vehicle specifics, and individual demographics. Key columns include `CRASH DATE`, `VEHICLE TYPE`, `PERSON TYPE`, `CONTRIBUTING FACTORS`, and more.
 
+#### 2.3 Dataset Links
+1. Motor Vehicle Collision: Crashes: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data
+2. Motor Vehicle Collision: Vehicles: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Vehicles/bm4k-52h4/about_data
+3. Motor Vehicle Collision: Person: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Person/f55k-p6yu/about_data
 ---
 
 ### 3. Data Preprocessing and Cleaning
