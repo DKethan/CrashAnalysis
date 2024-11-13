@@ -180,4 +180,14 @@ ORDER BY total_injuries DESC;
 4. **Lack of Individualized Data**: Aggregating data at a group level, such as by borough or vehicle type, may overlook unique individual characteristics that could influence crash outcomes, such as driving experience, age, or personal driving habits.
 
 5. **Memory Consumption**: Due to the size of the merged data, the memory consumption is increased, which affects the system's efficiency.
+6. 
 
+# Conclusions
+
+1. **High-Risk Contributing Factors**: Certain behaviors, such as distracted driving and speeding, show a clear correlation with severe injuries. This reinforces the importance of targeted enforcement and awareness campaigns to mitigate these behaviors.
+
+2. **Significance of Safety Equipment**: The analysis supports the role of safety equipment in reducing injury severity. Findings may encourage policymakers to strengthen safety equipment regulations and educate the public on proper equipment use, particularly for high-risk seating positions.
+
+3. **Impact of Pre-Crash Actions**: Certain pre-crash actions, such as making a left turn or lane changes, emerge as particularly risky, especially when combined with high-risk behaviors. This suggests that infrastructure improvements, such as clearer lane markings and signage, could enhance safety in these scenarios.
+
+4. **Identification of High-Injury Locations**: Geographic patterns in accident data, such as high injury counts in specific boroughs, can inform regional traffic safety initiatives, optimized patrolling, and infrastructure improvements.
