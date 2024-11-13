@@ -180,7 +180,7 @@ ORDER BY total_injuries DESC;
 4. **Lack of Individualized Data**: Aggregating data at a group level, such as by borough or vehicle type, may overlook unique individual characteristics that could influence crash outcomes, such as driving experience, age, or personal driving habits.
 
 5. **Memory Consumption**: Due to the size of the merged data, the memory consumption is increased, which affects the system's efficiency.
-6. 
+   
 
 # Conclusions
 
