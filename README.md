@@ -167,3 +167,17 @@ WHERE c."NUMBER OF PERSONS INJURED" > 0
 GROUP BY v.PRE_CRASH, v.CONTRIBUTING_FACTOR_1
 ORDER BY total_injuries DESC;
 ```
+
+
+# Limitations of the Project
+
+1. **Data Quality and Completeness**: The accuracy and completeness of the datasets, including crashes, person, and vehicles, are critical. Missing or inaccurately recorded data on factors such as injury severity, vehicle types, and contributing factors may affect the reliability of insights. Incomplete fields in `PRE_CRASH`, `SAFETY_EQUIPMENT`, and `CONTRIBUTING_FACTOR_1` could lead to skewed or incomplete conclusions.
+
+2. **Scope of Contributing Factors**: The available data may not account for all potential contributing factors, such as road conditions, weather, or infrastructure quality, which are crucial for a comprehensive analysis of traffic accidents. Without this context, conclusions might overlook significant external factors.
+
+3. **Contextual Factors in Behavior Analysis**: Behavioral factors such as `DISTRACTED DRIVING` or `AGGRESSIVE DRIVING` are often self-reported or observed after the incident, which can introduce reporting bias. This can affect the analysis of behavior-related factors contributing to crashes.
+
+4. **Lack of Individualized Data**: Aggregating data at a group level, such as by borough or vehicle type, may overlook unique individual characteristics that could influence crash outcomes, such as driving experience, age, or personal driving habits.
+
+5. **Memory Consumption**: Due to the size of the merged data, the memory consumption is increased, which affects the system's efficiency.
+
